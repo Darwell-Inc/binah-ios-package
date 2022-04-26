@@ -22,7 +22,7 @@ let package = Package(
         .binaryTarget(
             name: "BinahAI",
             url: "https://github.com/galen-it/binah-ios-package/releases/download/v1.0.0/BinahAI.xcframework.zip",
-            checksum: "c222ad6682912c3abed6ae56ba6dd6916dc45342aaed8c852670517ff0e477d3"
+            checksum: "9632285dce92de328ce21b0a44abacdee1bfae69f341539e76742eb50a39dafb"
         )
     ]
 )
