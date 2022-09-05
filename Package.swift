@@ -3,26 +3,26 @@
 import PackageDescription
 
 let package = Package(
-    name: "galenit-binah",
+    name: "darwell-binah",
     platforms: [
         .iOS(.v14)
     ],
     products: [
         .library(
-            name: "GalenitBinah",
-            targets: ["GalenitBinah"]
+            name: "DarwellBinah",
+            targets: ["DarwellBinah"]
         ),
     ],
     targets: [
         .target(
-            name: "GalenitBinah",
+            name: "DarwellBinah",
             dependencies: ["BinahAI"],
             path: "Sources"
         ),
         .binaryTarget(
             name: "BinahAI",
-            url: "https://github.com/galen-it/binah-ios-package/releases/download/1.0.8/BinahAI.xcframework.zip",
-            checksum: "8614c0e7fbd6b8437b1a3203570a267d2aa567a7c6856f96af15b7d2727576eb"
+            url: "https://github.com/galen-it/binah-ios-package/releases/download/4.8.1/BinahAI.xcframework.zip",
+            checksum: "35a1ea3bef827133799cfc611614daf0c183eb8cbff4ad1f3e9771504d2af212"
         )
     ]
 )
